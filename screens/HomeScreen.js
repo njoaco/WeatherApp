@@ -9,6 +9,9 @@ import { fetchLocations, fetchWeatherForecast } from '../backend/weatherAPI';
 import { weatherImages } from '../backend';
 import * as Progress from 'react-native-progress';
 import { storeData } from '../utils/asyncStorage';
+import { getData } from '../utils/asyncStorage';
+
+//TODO: Agregar funcionabilidad de Async Storage en HomeScreen.js
 
 export default function HomeScreen() {
     const [showSearch, toggleSearch] = useState(false);
@@ -46,8 +49,12 @@ export default function HomeScreen() {
     },[])
 
     const fetchMyWeatherData = async ()=>{
+        let myCity = await getData('city');
+        let cityName = 'Buenos Aires';
+        if(myCity) cityName = myCity;
+
         fetchWeatherForecast({
-            cityName: "Buenos Aires",
+            cityName,
             days: '7'
         }).then(data=>{
             setWeather(data);
