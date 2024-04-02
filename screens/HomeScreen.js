@@ -11,8 +11,6 @@ import * as Progress from 'react-native-progress';
 import { storeData } from '../utils/asyncStorage';
 import { getData } from '../utils/asyncStorage';
 
-//TODO: Agregar funcionabilidad de Async Storage en HomeScreen.js
-
 export default function HomeScreen() {
     const [showSearch, toggleSearch] = useState(false);
     const [locations, setLocations] = useState ([]);
