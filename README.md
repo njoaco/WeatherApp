@@ -11,8 +11,6 @@ Este proyecto tiene como objetivo mantenerte actualizado sobre el pronóstico de
 
 ## Capturas de la App
 
-![alt text](https://r2.easyimg.io/t79vjq9sk/1.png)
-
-![alt text](https://r2.easyimg.io/t79vjq9sk/2.png)
-
-![alt text](https://r2.easyimg.io/t79vjq9sk/3.png)
+![Home](https://github.com/njoaco/WeatherApp/assets/162630044/1d4b3397-6753-45c9-bde1-19151afde8c1)
+![Home2](https://github.com/njoaco/WeatherApp/assets/162630044/b3e27f0a-262a-423c-8ccb-ebdc39cf5f4e)
+![Home3](https://github.com/njoaco/WeatherApp/assets/162630044/9db4f63f-9bcf-4c0b-ad95-0cc8fa2b77a5)
